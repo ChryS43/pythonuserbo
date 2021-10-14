@@ -11,4 +11,6 @@ with TelegramClient('name', api_id, api_hash) as client:
         client.send_message('@lupen1324', 'Hello, myself!')
         # await asyncio.sleep(60*3)
 
+    send_multiple_message()
+
     client.run_until_disconnected()
